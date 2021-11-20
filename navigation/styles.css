@@ -12,9 +12,19 @@ form {
 .button {
   margin-top: 1rem;
   padding: 0.5rem;
-  background-color: rgb(132, 132, 220);
+  background-color: rgb(21, 21, 87);
   color: white;
   border-radius: 0.7rem;
   text-align: center;
   cursor: pointer;
+}
+
+.imagen {
+  height: 183px;
+  width: 275px;
+}
+
+.alinear {
+  display: flex;
+  flex-direction: column;
 }

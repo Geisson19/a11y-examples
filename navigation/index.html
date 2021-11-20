@@ -10,15 +10,15 @@
   <body>
     <main>
       <h1>Navigation & Tabs</h1>
-      <div class="container">
-        <form action="">
-          <p>First Name:</p>
-          <input type="text" />
-          <p>Last Name:</p>
-          <input type="text" />
-          <div onclick="printMessage()" class="button">Submit</div>
+      <div aria-label="Form Container" class="container">
+        <form class="alinear" action="">
+          <label for="first_name">First Name</label>
+          <input id="first_name" type="text" />
+          <label for="last_name">Last Name</label>
+          <input id="last_name" type="text" />
+          <button onclick="printMessage()" class="button">Submit</button>
         </form>
-        <img src="../assets/images/dog.jpeg" />
+        <img class="imagen" src="../assets/images/dog.jpeg" alt="Dog" />
       </div>
     </main>
     <script src="./index.js"></script>
